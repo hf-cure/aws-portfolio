@@ -55,7 +55,7 @@ const Hero = () => {
   const achievements = [
     {
       icon: <Calendar className="h-5 w-5" />,
-      text: '4+ Years Experience',
+      text: '3+ Years Experience',
       color: 'text-blue-600'
     },
     {

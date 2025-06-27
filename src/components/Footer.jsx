@@ -12,17 +12,17 @@ const Footer = () => {
     {
       icon: <Github className="h-5 w-5" />,
       name: 'GitHub',
-      url: 'https://github.com/hamzafarrukh'
+      url: 'https://github.com/hammxah'
     },
     {
       icon: <Linkedin className="h-5 w-5" />,
       name: 'LinkedIn',
-      url: 'https://linkedin.com/in/hamzafarrukh'
+      url: 'https://linkedin.com/in/hammxah'
     },
     {
       icon: <Mail className="h-5 w-5" />,
       name: 'Email',
-      url: 'mailto:hamza.farrukh@email.com'
+      url: 'mailto:hammxah@gmail.com'
     }
   ];
 
@@ -94,10 +94,10 @@ const Footer = () => {
               <div className="space-y-2 text-muted-foreground">
                 <p>
                   <a 
-                    href="mailto:hamza.farrukh@email.com"
+                    href="mailto:hammxah@email.com"
                     className="hover:text-primary transition-colors duration-200"
                   >
-                    hamza.farrukh@email.com
+                    hammxah@email.com
                   </a>
                 </p>
                 <p>Available for Remote Work</p>

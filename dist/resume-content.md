@@ -1,18 +1,18 @@
 # Hamza Farrukh
-## Senior Full-Stack Developer & IT Professional
+## Full-Stack Developer & IT Professional
 
 **Email:** hamza.farrukh@email.com  
-**Phone:** +1 (555) 123-4567  
+**Phone:** +61450691415  
 **Location:** Available for Remote Work  
-**LinkedIn:** [linkedin.com/in/hamzafarrukh](https://linkedin.com/in/hamzafarrukh)  
-**GitHub:** [github.com/hamzafarrukh](https://github.com/hamzafarrukh)  
-**Portfolio:** [hamzafarrukh.dev](https://hamzafarrukh.dev)
+**LinkedIn:** [linkedin.com/in/hammxah](https://linkedin.com/in/hammxah)  
+**GitHub:** [github.com/hammxah](https://github.com/hammxah)  
+**Portfolio:** [hammxah.com](https://hammxah.com)
 
 ---
 
 ## Professional Summary
 
-Experienced IT professional with nearly 4 years of industry experience specializing in full-stack web development, system architecture, and data engineering. Master's degree holder in Information Technology with expertise in building scalable applications, leading agile development teams, and implementing cutting-edge technologies that drive business growth and user engagement.
+Experienced IT professional with 3+ years of industry experience specializing in full-stack web development, system architecture, and data engineering. Master's degree holder in Information Technology with expertise in building scalable applications, leading agile development teams, and implementing cutting-edge technologies that drive business growth and user engagement.
 
 **Core Competencies:**
 - Full-Stack Web Development (PHP Laravel, React, Python Flask)
@@ -28,7 +28,7 @@ Experienced IT professional with nearly 4 years of industry experience specializ
 
 **Master of Science in Information Technology**  
 *Major: Information Systems Development*  
-*Graduation: 2020*
+*Graduation: 2025*
 
 **Key Coursework:**
 - Programming & Data Structures (Python, Advanced Algorithms)
@@ -49,8 +49,8 @@ Developed a secure password management system using Private Set Intersection (PS
 
 ## Professional Experience
 
-### CureMD | Senior Software Developer & Scrum Master
-*January 2022 - Present (3+ years)*
+### CureMD | Software Developer & Scrum Master
+*May 2021 - May 2023*
 
 **Key Responsibilities & Achievements:**
 - Led development of comprehensive Applicant Tracking System (ATS) using PHP Laravel framework, serving 500+ daily users
@@ -64,11 +64,11 @@ Developed a secure password management system using Private Set Intersection (PS
 **Technical Environment:** PHP Laravel, MySQL, MongoDB, Azure DevOps, REST APIs, Git, Scrum/Agile
 
 ### Onyxtec | Web Developer
-*March 2021 - December 2021 (10 months)*
+*February 2021 - May 2021*
 
 **Key Responsibilities & Achievements:**
 - Developed and maintained enterprise-level CMS and eCommerce platforms using PHP Laravel framework
-- Worked extensively with Magento for complex eCommerce solutions, customizing modules for client-specific requirements
+- Worked with Magento for complex eCommerce solutions, customizing modules for client-specific requirements
 - Implemented responsive user interfaces collaborating closely with UX/UI design teams
 - Optimized application performance through database query optimization and caching strategies
 - Provided ongoing technical support and maintenance for existing client applications
@@ -77,7 +77,7 @@ Developed a secure password management system using Private Set Intersection (PS
 **Technical Environment:** PHP Laravel, Magento, MySQL, JavaScript, HTML/CSS, Git, jQuery
 
 ### Tetralogix | Backend Developer
-*June 2020 - February 2021 (9 months)*
+*October 2019 - April 2020*
 
 **Key Responsibilities & Achievements:**
 - Built robust e-commerce backend features using PHP Laravel framework for high-traffic applications
@@ -94,7 +94,7 @@ Developed a secure password management system using Private Set Intersection (PS
 ## Technical Skills
 
 **Programming Languages:**
-- PHP (Expert) - 4+ years professional experience
+- PHP (Expert) - 3+ years professional experience
 - JavaScript (Advanced) - Modern ES6+, Node.js
 - Python (Advanced) - Data analysis, web development, automation
 - HTML5/CSS3 (Expert) - Semantic markup, responsive design
@@ -110,14 +110,11 @@ Developed a secure password management system using Private Set Intersection (PS
 **Databases & Storage:**
 - MySQL (Advanced) - Query optimization, indexing, replication
 - MongoDB (Intermediate) - NoSQL design, aggregation pipelines
-- PostgreSQL (Intermediate) - Advanced SQL features, JSON support
-- Redis (Basic) - Caching, session management
 - SQLite (Intermediate) - Embedded applications
 
 **Cloud & DevOps:**
 - AWS (Intermediate) - EC2, S3, RDS, Lambda, deployment strategies
 - Azure DevOps (Advanced) - CI/CD pipelines, project management
-- Docker (Basic) - Containerization, microservices deployment
 - Git (Advanced) - Version control, branching strategies, collaboration
 - CI/CD (Advanced) - Automated testing, deployment pipelines
 
@@ -197,16 +194,14 @@ Architected and implemented a scalable data processing pipeline for handling lar
 - Performance optimization and resource management
 
 ### Shift Grabber Application
-*Technologies: PHP, MySQL, JavaScript, Bootstrap, AJAX, Responsive Design*
+*Technologies: PHP*
 
-Developed a mobile-responsive web application for shift management and scheduling, allowing employees to view, request, and manage work shifts efficiently.
+Developed a console application for shift management and scheduling, allowing driver to manage work shifts efficiently.
 
 **Key Features:**
-- Intuitive shift scheduling interface with drag-and-drop functionality
-- Employee availability tracking and conflict resolution
-- Real-time notifications for shift updates and approvals
-- Mobile-first responsive design for on-the-go access
-- Administrative dashboard for managers and supervisors
+- Intuitive shift scheduling functionality
+- Driver availability tracking and conflict resolution
+- Real-time notifications for shift updates
 
 ---
 
@@ -215,8 +210,6 @@ Developed a mobile-responsive web application for shift management and schedulin
 - **Certified Scrum Master (CSM)** - Scrum Alliance
 - **AWS Cloud Practitioner** - Amazon Web Services (In Progress)
 - **Advanced Laravel Development** - Professional Certification
-- **Machine Learning Fundamentals** - Coursera Specialization
-- **Agile Project Management** - PMI Certification
 
 ---
 
@@ -232,8 +225,8 @@ Developed a mobile-responsive web application for shift management and schedulin
 
 ## Languages
 
-- **English** - Native/Fluent (Professional Working Proficiency)
-- **[Additional Language]** - Conversational (if applicable)
+- **English** - Fluent (Professional Working Proficiency)
+- **Urdu** - Native/Fluent (Professional Working Proficiency)
 
 ---
 

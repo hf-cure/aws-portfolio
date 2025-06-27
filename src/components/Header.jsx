@@ -47,17 +47,17 @@ const Header = ({ darkMode, toggleDarkMode }) => {
   const socialLinks = [
     {
       icon: <Github className="h-5 w-5" />,
-      href: 'https://github.com/hamzafarrukh',
+      href: 'https://github.com/hammxah',
       label: 'GitHub Profile'
     },
     {
       icon: <Linkedin className="h-5 w-5" />,
-      href: 'https://linkedin.com/in/hamzafarrukh',
+      href: 'https://linkedin.com/in/hammxah',
       label: 'LinkedIn Profile'
     },
     {
       icon: <Mail className="h-5 w-5" />,
-      href: 'mailto:hamza.farrukh@email.com',
+      href: 'mailto:hammxah@gmail.com',
       label: 'Send Email'
     }
   ];

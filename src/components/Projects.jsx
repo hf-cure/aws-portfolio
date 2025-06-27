@@ -37,14 +37,13 @@ const Projects = () => {
     {
       title: 'Doctor/Patient Appointment System',
       description: 'Comprehensive healthcare management system deployed on AWS. Features appointment scheduling, patient records management, and doctor availability tracking with secure authentication.',
-      technologies: ['PHP', 'Laravel', 'AWS', 'MySQL', 'Bootstrap', 'jQuery'],
+      technologies: ['PHP', 'AWS', 'MySQL', 'Bootstrap', 'jQuery'],
       category: 'Web Application',
       icon: <Calendar className="h-6 w-6" />,
       features: [
         'Appointment scheduling system',
         'Patient and doctor dashboards',
         'Medical records management',
-        'Email notifications',
         'AWS cloud deployment'
       ],
       status: 'Completed'
@@ -81,9 +80,9 @@ const Projects = () => {
     },
     {
       title: 'Shift Grabber App',
-      description: 'Mobile-responsive web application for shift management and scheduling. Built with PHP, allowing employees to view, request, and manage work shifts efficiently.',
-      technologies: ['PHP', 'MySQL', 'JavaScript', 'Bootstrap', 'AJAX', 'Responsive Design'],
-      category: 'Web Application',
+      description: 'Console application for shift management and scheduling. Built with PHP, allowing driver to pick shifts efficiently.',
+      technologies: ['PHP'],
+      category: 'Console Application',
       icon: <Smartphone className="h-6 w-6" />,
       features: [
         'Shift scheduling interface',

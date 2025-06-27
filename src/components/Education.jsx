@@ -62,7 +62,7 @@ const Education = () => {
       courses: [
         {
           name: 'System Analysis & Project Management',
-          technology: 'MS Project, Gantt, WBS',
+          technology: 'MS Project, Gantt Chart, WBS',
           description: 'Project planning, system analysis, and management methodologies',
           icon: <BookOpen className="h-6 w-6" />
         },

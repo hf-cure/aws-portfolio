@@ -44,13 +44,13 @@ const Contact = () => {
     {
       icon: <Phone className="h-6 w-6" />,
       title: 'Phone',
-      value: '+1 (555) 123-4567',
-      link: 'tel:+15551234567'
+      value: '+61450491415',
+      link: 'tel:+61450491415'
     },
     {
       icon: <MapPin className="h-6 w-6" />,
       title: 'Location',
-      value: 'Available for Remote Work',
+      value: 'Australia, Available for Remote Work',
       link: null
     }
   ];
@@ -59,20 +59,14 @@ const Contact = () => {
     {
       icon: <Github className="h-5 w-5" />,
       name: 'GitHub',
-      url: 'https://github.com/hamzafarrukh',
+      url: 'https://github.com/hammxah',
       color: 'hover:text-gray-900 dark:hover:text-gray-100'
     },
     {
       icon: <Linkedin className="h-5 w-5" />,
       name: 'LinkedIn',
-      url: 'https://linkedin.com/in/hamzafarrukh',
+      url: 'https://linkedin.com/in/hammxah',
       color: 'hover:text-blue-600'
-    },
-    {
-      icon: <Twitter className="h-5 w-5" />,
-      name: 'Twitter',
-      url: 'https://twitter.com/hamzafarrukh',
-      color: 'hover:text-blue-400'
     }
   ];
 

@@ -28,25 +28,25 @@ const Hero = () => {
   };
 
   const handleContactClick = () => {
-    window.open('mailto:hamza.farrukh@email.com?subject=Professional Inquiry&body=Hi Hamza,%0D%0A%0D%0AI came across your portfolio and would like to discuss...', '_blank');
+    window.open('mailto:hammxah@gmail.com?subject=Professional Inquiry&body=Hi Hamza,%0D%0A%0D%0AI came across your portfolio and would like to discuss...', '_blank');
   };
 
   const socialLinks = [
     {
       icon: <Github className="h-6 w-6" />,
-      href: 'https://github.com/hamzafarrukh',
+      href: 'https://github.com/hammxah',
       label: 'View GitHub Profile',
       color: 'hover:text-gray-900 dark:hover:text-gray-100'
     },
     {
       icon: <Linkedin className="h-6 w-6" />,
-      href: 'https://linkedin.com/in/hamzafarrukh',
+      href: 'https://linkedin.com/in/hammxah',
       label: 'Connect on LinkedIn',
       color: 'hover:text-blue-600'
     },
     {
       icon: <Mail className="h-6 w-6" />,
-      href: 'mailto:hamza.farrukh@email.com',
+      href: 'mailto:hammxah@email.com',
       label: 'Send Email',
       color: 'hover:text-green-600'
     }
@@ -65,7 +65,7 @@ const Hero = () => {
     },
     {
       icon: <Code className="h-5 w-5" />,
-      text: '15+ Technologies',
+      text: '10+ Technologies',
       color: 'text-green-600'
     },
     {
@@ -141,7 +141,7 @@ const Hero = () => {
             {/* Dynamic Role Display */}
             <div className="text-2xl md:text-3xl lg:text-4xl text-muted-foreground mb-4 h-12 flex items-center justify-center">
               <span className="inline-block">
-                <span className="text-foreground font-semibold">Senior </span>
+                <span className="text-foreground font-semibold"></span>
                 <span 
                   key={currentRole}
                   className="text-primary font-bold animate-in slide-in-from-bottom-2 duration-500"
@@ -166,7 +166,7 @@ const Hero = () => {
             </p>
             
             <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
-              With nearly 4 years of hands-on experience across diverse industries, I specialize in building 
+              With 3+ years of hands-on experience across diverse industries, I specialize in building 
               robust full-stack applications, leading agile development teams, and implementing cutting-edge 
               technologies that drive business growth and user engagement.
             </p>

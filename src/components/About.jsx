@@ -20,16 +20,9 @@ const About = () => {
     {
       icon: <Code className="h-6 w-6" />,
       title: 'Full-Stack Development',
-      description: 'Expert in building end-to-end web applications using modern frameworks like Laravel, React, and Flask',
+      description: 'Expert in building end-to-end web applications using modern frameworks like Laravel',
       color: 'text-blue-600',
       bgColor: 'bg-blue-50 dark:bg-blue-950'
-    },
-    {
-      icon: <Database className="h-6 w-6" />,
-      title: 'Data Engineering',
-      description: 'Specialized in big data processing, ETL pipelines, and analytics using Hadoop, Spark, and advanced ML algorithms',
-      color: 'text-green-600',
-      bgColor: 'bg-green-50 dark:bg-green-950'
     },
     {
       icon: <Cloud className="h-6 w-6" />,
@@ -55,7 +48,7 @@ const About = () => {
     {
       icon: <Briefcase className="h-6 w-6" />,
       title: 'Industry Experience',
-      description: 'Nearly 4 years of hands-on experience across healthcare, e-commerce, and enterprise software domains',
+      description: '3+ years of hands-on experience across healthcare, e-commerce, and enterprise software domains',
       color: 'text-red-600',
       bgColor: 'bg-red-50 dark:bg-red-950'
     }
@@ -63,9 +56,9 @@ const About = () => {
 
   const skills = [
     { category: 'Languages', items: ['PHP', 'JavaScript', 'Python', 'HTML/CSS', 'SQL'] },
-    { category: 'Frameworks', items: ['Laravel', 'React', 'Flask', 'FastAPI', 'Bootstrap'] },
-    { category: 'Databases', items: ['MySQL', 'MongoDB', 'PostgreSQL', 'Redis'] },
-    { category: 'Cloud & DevOps', items: ['AWS', 'Azure DevOps', 'Docker', 'CI/CD', 'Git'] },
+    { category: 'Frameworks', items: ['Laravel', 'Flask', 'FastAPI', 'Bootstrap'] },
+    { category: 'Databases', items: ['MySQL', 'MongoDB'] },
+    { category: 'Cloud & DevOps', items: ['AWS', 'Azure DevOps', 'CI/CD', 'Git'] },
     { category: 'Data & Analytics', items: ['Hadoop', 'Spark', 'Tableau', 'Machine Learning', 'Big Data'] },
     { category: 'Tools & Methods', items: ['Scrum', 'Agile', 'REST APIs', 'Microservices', 'TDD'] }
   ];
@@ -92,7 +85,7 @@ const About = () => {
     {
       icon: <TrendingUp className="h-5 w-5" />,
       title: 'Continuous Growth',
-      value: '15+',
+      value: '10+',
       description: 'Technologies mastered and counting'
     }
   ];
@@ -120,7 +113,7 @@ const About = () => {
                   My Journey
                 </h3>
                 <p className="text-foreground leading-relaxed mb-4">
-                  As an <strong>international IT graduate</strong> with nearly <strong>4 years of industry experience</strong>, 
+                  As an <strong>international IT graduate</strong> with <strong>3+ years of industry experience</strong>, 
                   I've had the privilege of working across diverse technological landscapes that have shaped my expertise 
                   in modern software development and system architecture.
                 </p>

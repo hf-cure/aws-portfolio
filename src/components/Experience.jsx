@@ -6,9 +6,9 @@ const Experience = () => {
   const experiences = [
     {
       company: 'CureMD',
-      position: 'Senior Software Developer & Scrum Master',
-      duration: '2022 - Present',
-      location: 'Remote',
+      position: 'Software Developer & Scrum Master',
+      duration: '2021 - 2023',
+      location: 'On-site',
       description: [
         'Led ATS (Applicant Tracking System) development using PHP Laravel framework',
         'Implemented CI/CD pipelines and automated deployment processes using Azure DevOps',
@@ -17,17 +17,17 @@ const Experience = () => {
         'Managed database operations with MySQL and MongoDB for scalable applications',
         'Collaborated with cross-functional teams to deliver high-quality software solutions'
       ],
-      technologies: ['PHP Laravel', 'MySQL', 'MongoDB', 'Codility API', 'Criteria Corp ATS', 'Azure DevOps', 'Scrum'],
+      technologies: ['PHP Laravel', 'MySQL', 'MongoDB', 'Codility API', 'Criteria Corp CCAT Test', 'Azure DevOps', 'Scrum'],
       type: 'Full-time'
     },
     {
       company: 'Onyxtec',
       position: 'Web Developer',
-      duration: '2021 - 2022',
-      location: 'Hybrid',
+      duration: '2021 - 2021',
+      location: 'On-site',
       description: [
         'Developed and maintained CMS and eCommerce platforms using PHP Laravel',
-        'Worked extensively with Magento for enterprise-level eCommerce solutions',
+        'Worked with Magento for enterprise-level eCommerce solutions',
         'Implemented custom features and modules for client-specific requirements',
         'Optimized application performance and database queries',
         'Collaborated with design teams to implement responsive user interfaces',
@@ -38,8 +38,8 @@ const Experience = () => {
     },
     {
       company: 'Tetralogix',
-      position: 'Backend Developer',
-      duration: '2020 - 2021',
+      position: 'Jr. Web Developer',
+      duration: '2019 - 2020',
       location: 'On-site',
       description: [
         'Built robust e-commerce backend features using PHP Laravel framework',
@@ -142,7 +142,7 @@ const Experience = () => {
           {/* Summary Stats */}
           <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center">
-              <div className="text-3xl font-bold text-primary mb-2">4+</div>
+              <div className="text-3xl font-bold text-primary mb-2">3+</div>
               <div className="text-muted-foreground">Years Experience</div>
             </div>
             <div className="text-center">
@@ -150,7 +150,7 @@ const Experience = () => {
               <div className="text-muted-foreground">Companies</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-primary mb-2">15+</div>
+              <div className="text-3xl font-bold text-primary mb-2">10+</div>
               <div className="text-muted-foreground">Technologies</div>
             </div>
           </div>

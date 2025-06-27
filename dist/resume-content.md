@@ -1,7 +1,7 @@
 # Hamza Farrukh
 ## Full-Stack Developer & IT Professional
 
-**Email:** hamza.farrukh@email.com  
+**Email:** hammxah@gmail.com  
 **Phone:** +61450691415  
 **Location:** Available for Remote Work  
 **LinkedIn:** [linkedin.com/in/hammxah](https://linkedin.com/in/hammxah)  

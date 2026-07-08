@@ -12,6 +12,8 @@ const Contact = () => {
     subject: '',
     message: ''
   });
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState(null);
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -21,17 +23,50 @@ const Contact = () => {
     }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Handle form submission here
-    console.log('Form submitted:', formData);
-    // Reset form
-    setFormData({
-      name: '',
-      email: '',
-      subject: '',
-      message: ''
-    });
+    const accessKey = import.meta.env.VITE_WEB3FORMS_ACCESS_KEY;
+
+    if (!accessKey) {
+      setSubmitStatus('error');
+      return;
+    }
+
+    setIsSubmitting(true);
+    setSubmitStatus(null);
+
+    try {
+      const response = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          access_key: accessKey,
+          name: formData.name.trim(),
+          email: formData.email.trim(),
+          subject: formData.subject.trim(),
+          message: formData.message.trim(),
+          from_name: 'Portfolio Contact Form',
+        }),
+      });
+
+      const result = await response.json().catch(() => ({}));
+
+      if (!response.ok || !result.success) {
+        throw new Error(result.message || 'Failed to send message');
+      }
+
+      setSubmitStatus('success');
+      setFormData({
+        name: '',
+        email: '',
+        subject: '',
+        message: ''
+      });
+    } catch {
+      setSubmitStatus('error');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const contactInfo = [
@@ -231,11 +266,25 @@ const Contact = () => {
                     type="submit" 
                     className="w-full bg-primary hover:bg-primary/90 text-primary-foreground"
                     size="lg"
+                    disabled={isSubmitting}
                   >
                     <Send className="h-5 w-5 mr-2" />
-                    Send Message
+                    {isSubmitting ? 'Sending...' : 'Send Message'}
                   </Button>
                 </form>
+
+                {submitStatus === 'success' && (
+                  <p className="text-sm text-green-600 dark:text-green-400 mt-4 text-center">
+                    Message sent successfully. I&apos;ll get back to you within 24 hours.
+                  </p>
+                )}
+                {submitStatus === 'error' && (
+                  <p className="text-sm text-red-600 dark:text-red-400 mt-4 text-center">
+                    Could not send your message. {!import.meta.env.VITE_WEB3FORMS_ACCESS_KEY
+                      ? 'Form is not configured yet (missing VITE_WEB3FORMS_ACCESS_KEY).'
+                      : 'Please try again or email me directly at hammxah@gmail.com.'}
+                  </p>
+                )}
 
                 <p className="text-xs text-muted-foreground mt-4 text-center">
                   I'll get back to you within 24 hours. Looking forward to connecting!
